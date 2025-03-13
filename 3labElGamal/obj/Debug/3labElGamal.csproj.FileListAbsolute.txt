@@ -1,0 +1,15 @@
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\3labElGamal.csproj.AssemblyReference.cache
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\MainWindow.g.cs
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\App.g.cs
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\3labElGamal_MarkupCompile.cache
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\3labElGamal_MarkupCompile.lref
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\MainWindow.baml
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\3labElGamal.g.resources
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\_3labElGamal.Properties.Resources.resources
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\3labElGamal.csproj.GenerateResource.cache
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\3labElGamal.csproj.CoreCompileInputs.cache
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\3labElGamal.pdb
+C:\Users\blazego\source\repos\3labElGamal\bin\Debug\3labElGamal.exe.config
+C:\Users\blazego\source\repos\3labElGamal\bin\Debug\3labElGamal.exe
+C:\Users\blazego\source\repos\3labElGamal\bin\Debug\3labElGamal.pdb
+C:\Users\blazego\source\repos\3labElGamal\obj\Debug\3labElGamal.exe
