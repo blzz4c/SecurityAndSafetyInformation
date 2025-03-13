@@ -1,0 +1,15 @@
+C:\Users\blazego\source\repos\2labRSA\bin\Debug\2labRSA.exe.config
+C:\Users\blazego\source\repos\2labRSA\bin\Debug\2labRSA.exe
+C:\Users\blazego\source\repos\2labRSA\bin\Debug\2labRSA.pdb
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\2labRSA.csproj.AssemblyReference.cache
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\MainWindow.g.cs
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\App.g.cs
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\2labRSA_MarkupCompile.cache
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\2labRSA_MarkupCompile.lref
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\MainWindow.baml
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\2labRSA.g.resources
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\_2labRSA.Properties.Resources.resources
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\2labRSA.csproj.GenerateResource.cache
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\2labRSA.csproj.CoreCompileInputs.cache
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\2labRSA.exe
+C:\Users\blazego\source\repos\2labRSA\obj\Debug\2labRSA.pdb

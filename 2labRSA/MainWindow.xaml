@@ -1,0 +1,100 @@
+﻿<Window x:Class="_2labRSA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2labRSA"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="475" Width="800">
+    <Grid RenderTransformOrigin="0.456,0.47">
+        <TextBox x:Name="encryptPhrase" HorizontalAlignment="Left" Height="181" Margin="40,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="overEncryptLabel" Content="Фраза для шифрования" HorizontalAlignment="Left" Height="28" Margin="40,69,0,0" VerticalAlignment="Top" Width="230"/>
+        <Label x:Name="overDecryptLabel" Content="Результат:" HorizontalAlignment="Center" Margin="0,71,0,0" VerticalAlignment="Top" Width="230" Height="26"/>
+        <Button x:Name="encryptButton" Content="Шифровать" HorizontalAlignment="Left" Height="25" Margin="40,283,0,0" VerticalAlignment="Top" Width="230" Click="encryptButton_Click"/>
+        <Button x:Name="generateKeysButton" Content="Сгенерировать ключи" HorizontalAlignment="Left" Height="211" Margin="530,97,0,0" VerticalAlignment="Top" Width="230" Click="generateKeysButton_Click"/>
+        <Label Content="p:" HorizontalAlignment="Left" Height="25" Margin="40,323,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label Content="q:" HorizontalAlignment="Left" Height="25" Margin="40,353,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label Content="phi:" HorizontalAlignment="Left" Height="25" Margin="30,383,0,0" VerticalAlignment="Top" Width="30"/>
+        <Label Content="n:" HorizontalAlignment="Left" Height="25" Margin="285,353,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label Content="e:" HorizontalAlignment="Left" Height="25" Margin="285,383,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label Content="d:" HorizontalAlignment="Left" Height="25" Margin="530,353,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label Content="y:" HorizontalAlignment="Left" Height="25" Margin="530,383,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label Content="Открытый ключ" HorizontalAlignment="Center" Margin="0,323,0,0" VerticalAlignment="Top" Width="230" Height="26"/>
+        <Label Content="Закрытый ключ" HorizontalAlignment="Left" Margin="530,323,0,0" VerticalAlignment="Top" Width="230" Height="26"/>
+        <TextBox x:Name="pLabel" HorizontalAlignment="Left" Margin="70,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="25" RenderTransformOrigin="0.5,0.5" VerticalContentAlignment="Center" MaxLength="20" IsReadOnly="True">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.038"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="qLabel" HorizontalAlignment="Left" Margin="70,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="25" RenderTransformOrigin="0.5,0.5" VerticalContentAlignment="Center" MaxLength="20" IsReadOnly="True">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.038"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="phiLabel" HorizontalAlignment="Left" Margin="70,383,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="25" RenderTransformOrigin="0.5,0.5" VerticalContentAlignment="Center" MaxLength="20" IsReadOnly="True">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.038"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="nLabel" HorizontalAlignment="Left" Margin="314,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="25" RenderTransformOrigin="0.5,0.5" VerticalContentAlignment="Center" MaxLength="20">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.038"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="eLabel" HorizontalAlignment="Left" Margin="314,383,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="25" RenderTransformOrigin="0.5,0.5" VerticalContentAlignment="Center" MaxLength="20" TextChanged="eLabel_TextChanged">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.038"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="dLabel" HorizontalAlignment="Left" Margin="560,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="25" RenderTransformOrigin="0.5,0.5" VerticalContentAlignment="Center" MaxLength="20">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.038"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="yLabel" HorizontalAlignment="Left" Margin="560,384,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="25" RenderTransformOrigin="0.5,0.5" VerticalContentAlignment="Center" MaxLength="20" IsReadOnly="True">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.038"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="decryptPhrase" HorizontalAlignment="Center" Height="181" Margin="0,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="decryptButton" Content="Дешифровать" HorizontalAlignment="Center" Height="25" Margin="0,283,0,0" VerticalAlignment="Top" Width="230" Click="decryptButton_Click"/>
+        <Button x:Name="clearEncrypt" Content="Очистить фразу" HorizontalAlignment="Left" Margin="40,27,0,0" VerticalAlignment="Top" Width="230" Height="25" Click="clearEncrypt_Click"/>
+        <Button x:Name="clearDecrypt" Content="Очистить результат" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Width="230" Height="25" Click="clearDecrypt_Click"/>
+
+    </Grid>
+</Window>
