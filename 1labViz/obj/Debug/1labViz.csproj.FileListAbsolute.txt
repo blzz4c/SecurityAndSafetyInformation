@@ -1,0 +1,15 @@
+C:\Users\blazego\source\repos\1labViz\bin\Debug\1labViz.exe.config
+C:\Users\blazego\source\repos\1labViz\bin\Debug\1labViz.exe
+C:\Users\blazego\source\repos\1labViz\bin\Debug\1labViz.pdb
+C:\Users\blazego\source\repos\1labViz\obj\Debug\1labViz.csproj.AssemblyReference.cache
+C:\Users\blazego\source\repos\1labViz\obj\Debug\MainWindow.g.cs
+C:\Users\blazego\source\repos\1labViz\obj\Debug\App.g.cs
+C:\Users\blazego\source\repos\1labViz\obj\Debug\1labViz_MarkupCompile.cache
+C:\Users\blazego\source\repos\1labViz\obj\Debug\1labViz_MarkupCompile.lref
+C:\Users\blazego\source\repos\1labViz\obj\Debug\MainWindow.baml
+C:\Users\blazego\source\repos\1labViz\obj\Debug\1labViz.g.resources
+C:\Users\blazego\source\repos\1labViz\obj\Debug\_1labViz.Properties.Resources.resources
+C:\Users\blazego\source\repos\1labViz\obj\Debug\1labViz.csproj.GenerateResource.cache
+C:\Users\blazego\source\repos\1labViz\obj\Debug\1labViz.csproj.CoreCompileInputs.cache
+C:\Users\blazego\source\repos\1labViz\obj\Debug\1labViz.exe
+C:\Users\blazego\source\repos\1labViz\obj\Debug\1labViz.pdb
